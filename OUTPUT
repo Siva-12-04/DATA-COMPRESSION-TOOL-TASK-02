@@ -1,0 +1,70 @@
+Step 1: Create Input Files
+
+Compression Input File (input.txt): Create a file named input.txt with the following content:
+
+AAAABBBCCDAA
+
+Decompression Input File (compressed.txt): Create a file named compressed.txt with the following content (this is what you would get after compressing input.txt):
+
+4A3B2C1D2A
+
+Step 2: Run the Program
+
+Compile the Program: Save the provided C code in a file named rle_compression.c and compile it using a C compiler:
+
+gcc rle_compression.c -o rle_compression
+
+Run the Program: Execute the program:
+
+./rle_compression
+
+Step 3: Compression Example
+
+User Input:
+
+
+Run-Length Encoding (RLE) Compression Tool
+
+1. Compress a file
+
+2. Decompress a file
+
+Enter your choice: 1
+
+Enter the input file name: input.txt
+
+Enter the output file name: compressed.txt
+
+Expected Output:
+
+
+File compressed successfully.
+Content of compressed.txt after compression:
+
+
+4A3B2C1D2A
+
+Step 4: Decompression Example
+
+Run the Program Again: Execute the program again:
+
+
+./rle_compression
+
+User Input:
+
+Run-Length Encoding (RLE) Compression Tool
+
+1. Compress a file
+
+2. Decompress a file
+
+Enter your choice: 2
+
+Enter the input file name: compressed.txt
+
+Enter the output file name: decompressed.txt
+
+Expected Output:
+
+File decompressed successfully.
